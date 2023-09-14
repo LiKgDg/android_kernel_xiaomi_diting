@@ -572,5 +572,5 @@ subnode:
 
 void yyerror(char const *s)
 {
-	ERROR(&yylloc, "%s", s);
+	ERROR("%s", s);
 }
